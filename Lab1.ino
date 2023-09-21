@@ -17,7 +17,7 @@ void setLED(int pos, boolean state);
 const int ci_HeartbeatLED = 2;                  // GPIO pin of built-in LED for heartbeat
 const int ci_HeartbeatInterval = 500;           // heartbeat blink interval, in milliseconds
 const int ci_LEDPins[] = {
-  32, 33, 25, 26};                              // select the GPIO pins for the LEDs
+  32, 33, 25, 26, 27, 14};                              // select the GPIO pins for the LEDs
 const int ci_NumberLEDs =  
   sizeof(ci_LEDPins) / sizeof(ci_LEDPins[0]);   // number of LEDs in display
 
